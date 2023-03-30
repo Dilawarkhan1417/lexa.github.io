@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root{
+    --main-bg: #000000;
+    --second-bg: #263442;
+    --third-bg: #f1f2f3;
+    --main-color: #a7aab0;
+}
+ html{
+    font-size: 62.5%;
+ }
+ ul{
+    list-style-type: none !important;
+ }
+ a{
+    text-decoration: none !important;
+ }
+.bg-main{
+    background: var(--main-bg) !important;
+}
+.bg-second{
+    background: var(--second-bg) !important;
+}
+.bg-third{
+    background: var(--third-bg) !important;
+}
+.color-main{
+   color: var(--main-color) !important;
+}
+
+ /* ====Sidebar-style==== */
+ .sidebar{
+   overflow-y: auto;
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    /* margin-left: -240px; */
+ }
+
+ .navbar-menu-divider{
+   padding-left: 1.9rem;
+ }
+ .nav-link{
+   font-size: 1.3rem !important;
+ }
+ .nav-item.active{
+   color: #fff !important;
+   background: #1f2c39;
+ }
+ .nav-item:hover{
+   color: #fff !important;
+ }
+ /* ====Sidebar-style==== */
+
+
+ /* ====main-content-style==== */
+ #main-content{
+    margin-left: 240px;
+ }
+ .flag-img{
+   width: 25px;
+ }
+ .user-img{
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+ }
+ .profile{
+   height: 55px !important;
+   width: 65px !important;
+   border-radius: 50% !important;
+}
+.card{
+   overflow: hidden !important;
+   background-image: url("./bg-1.png") !important;
+   width: 100% !important;
+   background-position: center !important;
+   background-size: cover !important;  
+ }
+
+
+ #myChart{
+  padding-top: 80px !important;
+  height: 300px !important;
+  
+ }
+ 
+ #myChart2{
+  height: 300px !important;
+  
+ }
+ #myChart3{
+  
+  height: 300px !important;
+  
+ }
+ #myChart4{
+  height: 200px !important;
+  width: 150px !important;
+  
+ }
+ #myChart5{
+  height: 100px !important;
+  width: 150px !important;
+  
+ }
+ #myChart6{
+  height: 100px !important;
+  width: 150px !important;
+  
+ }
+.latest {
+  width: 500px !important;
+}
+ /* ====main-content-style==== */
+
+
+ .sidebar.toggled{
+    width: 163px;
+    position: fixed;
+ }
+ #main-content.toggled{
+    margin-left: 47px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto !important;
+ }
+ .navbar-menu-divider.toggled{
+   display: none;
+}
